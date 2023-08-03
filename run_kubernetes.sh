@@ -17,4 +17,5 @@ kubectl get pods
 
 # Step 4:
 # Forward the container port to a host
+# For make port forward for my app
 kubectl port-forward deployment.apps/udacity-project4-microservice-for-machineLN 8000:80
